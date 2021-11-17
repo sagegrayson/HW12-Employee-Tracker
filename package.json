@@ -1,0 +1,25 @@
+{
+  "name": "hw12-employee-tracker",
+  "version": "1.0.0",
+  "description": "example employee database program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagegrayson/HW12-Employee-Tracker.git"
+  },
+  "author": "Sage Grayson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagegrayson/HW12-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/sagegrayson/HW12-Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3"
+  }
+}
