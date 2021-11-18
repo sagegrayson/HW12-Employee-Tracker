@@ -27,7 +27,9 @@ CREATE TABLE employees (
     manager_id INT,
     PRIMARY KEY (id),
     FOREIGN KEY (role_id) 
-    REFERENCES roles(id)
+    REFERENCES roles(id),
+    FOREIGN KEY (manager_id)
+    REFERENCES employees(id)
 )
 
 -- SELECT * FROM company_db.departments;
