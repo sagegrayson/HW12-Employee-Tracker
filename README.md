@@ -3,7 +3,7 @@
 
     VIEW
     all departments = department names and ids
-    all roles = job title, role id, department name, department id
+    all roles = job title, role id, department name, salary
     all employees = employee id, first, last, job title, department name, salary, manager
 
     ADD
@@ -17,3 +17,5 @@
 -->
 
 # HW12-Employee-Tracker
+
+[Video Demo](https://watch.screencastify.com/v/0ZtvFotD8n9LRZbjA98m)

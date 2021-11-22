@@ -32,6 +32,3 @@ CREATE TABLE employees (
     REFERENCES employees(id)
 )
 
--- SELECT * FROM company_db.departments;
--- SELECT * FROM company_db.roles;
--- SELECT * FROM company_db.employees;

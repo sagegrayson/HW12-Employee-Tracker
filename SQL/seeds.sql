@@ -23,5 +23,9 @@ VALUES  ("Sage", "Grayson", 1, null),
         ("Madison", "Brinkman", 5, 2),
         ("Grace", "Coleman", 6, 2),
         ("Yeva", "Paine", 7, 2),
-        ("Sharon", "Reitsma", 7, 3),
-        ("Madison", "Fraser", 7, 3)
+        ("Sharon", "Reitsma", 7, 2),
+        ("Madison", "Fraser", 7, 2)
+
+SELECT * FROM company_db.departments;
+SELECT * FROM company_db.roles;
+SELECT * FROM company_db.employees;
